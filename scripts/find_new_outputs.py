@@ -27,6 +27,11 @@ pubmed_search_terms = [
 scholar_search_ids = [
     "pZcYYCkAAAAJ", # Calum's ISARIC4C one
     ]
+
+scholarjson = "catalog/google-scholar.json"
+pbibjson = "catalog/pbib.json"
+alreadyjson = "catalog/already.json"
+
 #-----------------------------
 import os
 import json
@@ -39,50 +44,28 @@ from scholarly import scholarly
 #-----------------------------
 parser = argparse.ArgumentParser()
 parser.add_argument('-p', '--use-proxy',    action="store_true", default=False,    help='use proxy for scholar')
-parser.add_argument('-n', '--newsearch',    action="store_true", default=False,    help='use proxy for scholar')
+parser.add_argument('-s', '--skipnewsearch',    action="store_true", default=False,    help='skip scholar and pubmed searches')
 args = parser.parse_args()
 #-----------------------------
-def search_scholar(ids, filename):
+def search_scholar(ids):
     titlelist = []
-    with open(filename, "w") as o:
-        for thisid in ids:
-            author = scholarly.search_author_id(thisid)
-            author = scholarly.fill(author, sections=["publications"])
-            o.write("index,citations,year,title\n")
-            for i,x in enumerate(author['publications']):
-                titlelist.append(x['bib']['title'])
-                try:
-                    if 'pub_year' in x['bib']:
-                        o.write("{},{},{},{}\n".format(
-                            i+1,
-                            x["num_citations"],
-                            x['bib']['pub_year'],
-                            x['bib']['title'],
-                            ))
-                    else:
-                        o.write("{},{},,{}\n".format(
-                            i+1,
-                            x["num_citations"],
-                            x['bib']['title'],
-                            ))
-                except:
-                    print ("failed:\n{}".format(x))
+    for thisid in ids:
+        author = scholarly.search_author_id(thisid)
+        author = scholarly.fill(author, sections=["publications"])
+        for i,x in enumerate(author['publications']):
+            titlelist.append(x['bib']['title'])
     return list(set(titlelist))
-
 #-----------------------------
-# search google scholar and store all titles in a csv file
-args.newsearch = True
-
-if args.newsearch:
+if not args.skipnewsearch:
     # GOOGLE SCHOLAR
     if args.use_proxy:
         from scholarly import ProxyGenerator # Set up a ProxyGenerator object to use free proxies. This needs to be done only once per session
         pg = ProxyGenerator()
         pg.FreeProxies()
         scholarly.use_proxy(pg)
-    scholartitles = search_scholar(scholar_search_ids, "catalog/google-scholar.csv")
+    scholartitles = search_scholar(scholar_search_ids)
     print (len(scholartitles), "papers found in scholar")
-    with open("catalog/google-scholar.json","w") as o:
+    with open(scholarjson,"w") as o:
         json.dump(scholartitles, o)
 
     # PUBMED
@@ -98,7 +81,7 @@ if args.newsearch:
     print (len(ids), "papers found in pubmed")
 
     try:
-        with open("catalog/already.json") as f:
+        with open(alreadyjson) as f:
             already = json.load(f)
     except:
         already = []
@@ -114,18 +97,22 @@ if args.newsearch:
                         n+=1
 
     print ("{} added from pubmed search of scholar titles")
-    with open("catalog/pbib.json","w") as o:
+    with open(pbibjson,"w") as o:
         json.dump(pbib, o, indent=4)
-    with open("catalog/already.json","w") as o:
+    with open(alreadyjson,"w") as o:
         json.dump(list(set(already)), o, indent=4)
 
-with open("catalog/google-scholar.json") as f:
-    scholartitles = json.load(f)
+if os.path.exists(scholarjson):
+    with open(scholarjson) as f:
+        scholartitles = json.load(f)
+else:
+    scholartitles = {}
 
-with open("catalog/pbib.json") as f:
-    pbib = json.load(f)
-
-#m = difflib.get_close_matches(a, affiliations, 6, args.similarity)[1:]
+if os.path.exists(pbibjson):
+    with open(pbibjson) as f:
+        pbib = json.load(f)
+else:
+    pbib = {}
 
 outputdir = os.path.abspath("../")
 ignorelist = ["__README.md"]
@@ -144,12 +131,8 @@ for i,thisfile in enumerate(files):
             except Exception as e:
                 print ("DOI not formatted as expected for {} ({})".format(thisfile, e))
                 continue
-            print (thisfile, doi)
             if doi in pbib:
-                print ("==> already have a file for {}".format(doi))
                 del pbib[doi]
-
-print ("pbib len now:", len(pbib))
 
 outputfields = [
     "Title",
@@ -160,14 +143,13 @@ outputfields = [
 
 for i,key in enumerate(pbib.keys()):
     filename = "_{}.md".format(slugify.slugify(pbib[key]["Title"].lower()[:18]))
+    print ("Creating file {} for doi {}".format(filename, key))
     y = {x.lower():pbib[key][x] for x in pbib[key] if x in outputfields}
     y["projects"] = ["example-project"]
-    y["featured"] = "true"
+    y["featured"] = "false"
     y["weight"] = 200
-    try:
-        y["doi"] = "https://doi.org/{}".format(pbib["doi"])
-    except:
-        pass
+    if "doi" in pbib[key]:
+        y["doi"] = "https://doi.org/{}".format(pbib[key]["doi"])
     r = ""
     if "Abstract" in pbib[key]:
         r = pbib[key]["Abstract"]

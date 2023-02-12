@@ -6,8 +6,9 @@ year: '2022'
 month: Feb
 projects:
 - example-project
-featured: 'true'
+featured: 'false'
 weight: 200
+doi: https://doi.org/10.1016/j.cell.2021.12.046
 ---
 
 On 24

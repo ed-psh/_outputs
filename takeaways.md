@@ -1,6 +1,6 @@
 ---
 title: Two key takeaways from a year of pandemic research
-doi: 10.1097/CCM.0000000000005078
+doi: https://doi.org/10.1097/CCM.0000000000005078
 projects:
 - genomicc
 weight: 50
