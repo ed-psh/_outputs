@@ -30,6 +30,7 @@ scholar_search_ids = [
 #-----------------------------
 import os
 import json
+import slugify # pip install python-slugify
 import argparse
 import oyaml as yaml
 import yamlfunctions
@@ -70,7 +71,7 @@ def search_scholar(ids, filename):
 
 #-----------------------------
 # search google scholar and store all titles in a csv file
-args.newsearch = False
+args.newsearch = True
 
 if args.newsearch:
     # GOOGLE SCHOLAR
@@ -95,23 +96,34 @@ if args.newsearch:
         except:
             print ("no doi for {}".format(entry))
     print (len(ids), "papers found in pubmed")
+
+    try:
+        with open("already.json") as f:
+            already = json.load(f)
+    except:
+        already = []
+    n = 0
+    for t in scholartitles:
+        if t not in already:
+            newbib = pubmedfunctions.searchtitle(t)
+            if newbib:
+                already.append(t)
+                if "doi" in newbib:
+                    if newbib["doi"] not in pbib.keys():
+                        pbib[newbib["doi"]] = newbib
+                        n+=1
+
+    print ("{} added from pubmed search of scholar titles")
     with open("catalog/pbib.json","w") as o:
         json.dump(pbib, o)
+    with open("catalog/already.json","w") as o:
+            json.dump(already, o)
 
 with open("catalog/google-scholar.json") as f:
     scholartitles = json.load(f)
 
 with open("catalog/pbib.json") as f:
     pbib = json.load(f)
-
-for t in scholartitles:
-    new = pubmedfunctions.searchtitle(t)
-    if new:
-        if "doi" in new:
-            if new["doi"] not in pbib.keys():
-                pbib[new["doi"]] = new
-                print ("new: ", new)
-
 
 #m = difflib.get_close_matches(a, affiliations, 6, args.similarity)[1:]
 
@@ -140,6 +152,28 @@ for i,thisfile in enumerate(files):
                 del pbib[doi]
 
 print ("pbib len now:", len(pbib))
+
+outputfields = [
+    "Title",
+    "Month",
+    "Year",
+    "Journal",
+    "doi",
+    ]
+
+for i,key in enumerate(pbib.keys()):
+    filename = "_{}.md".format(slugify.slugify(pbib[key]["Title"].lower()[:18]))
+    y = {x.lower():pbib[key][x] for x in pbib[key] if x in outputfields}
+    y["projects"] = ["example-project"]
+    y["featured"] = "true"
+    y["weight"] = 200
+    r = ""
+    if "Abstract" in pbib[key]:
+        r = pbib[key]["Abstract"]
+    newcontents = "---\n{}---\n\n{}".format(yaml.dump(y).replace("\n\n","\n"),r)
+    with open(os.path.join(outputdir,filename),"w") as o:
+        o.write(newcontents)
+
 
 
 

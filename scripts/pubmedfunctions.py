@@ -146,7 +146,10 @@ def p2b(pmidlist):
                 bib["Pages"] = MedlinePgn.text
             if Month is not None:
                 bib["Month"] = Month
-            # bib[""] = (' Abstract={{{}}},'.format(Abstract.text))
+            try:
+                bib["Abstract"] = Abstract.text
+            except:
+                pass
             if PMCID is not None:
                 bib["pmcid"] = PMCID.text
             if DOI is not None:
@@ -176,10 +179,11 @@ def searchtitle(thistitle):
         pubent = p2b(pmid)
         if len(pubent) > 0:
             if pubent[0] != 'null' and pubent[0] != None:
+                return pubent[0]
                 # compare titles. If they are almost identical, just go for it
-                s = difflib.SequenceMatcher(None, thistitle, pubent[0]['Title'])
+                s = difflib.SequenceMatcher(None, thistitle.lower(), pubent[0]['Title'].lower())
                 diffratio = s.ratio()
-                if diffratio > 0.99:
+                if diffratio > 0.98:
                     return pubent[0]
                 # if titles don't match, ask user
                 if ask:

@@ -6,7 +6,7 @@ doi: https://doi.org/10.1016/S0140-6736(21)00799-6
 projects:
 - isaric4c
 - odap
-journal: The Lancet,
+journal: The Lancet
 month: July
 year: '2021'
 ---
