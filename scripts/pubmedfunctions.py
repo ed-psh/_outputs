@@ -133,7 +133,7 @@ def p2b(pmidlist):
             try:
                 bib["ID"] = latexchars.replace_accents(new_id)
             except:
-                bib["ID"] = new_id
+                bib["ID"] = new_id.lower()
             bib["Author"] = ' and '.join(authors)
             bib["Title"] = ArticleTitle.text
             bib["Journal"] = Title.text
@@ -153,7 +153,7 @@ def p2b(pmidlist):
             if PMCID is not None:
                 bib["pmcid"] = PMCID.text
             if DOI is not None:
-                bib["doi"] = DOI.text
+                bib["doi"] = DOI.text.lower()
             if ISSN is not None:
                 bib["ISSN"] = ISSN.text
             bib["pmid"] = PMID.text

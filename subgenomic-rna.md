@@ -6,7 +6,8 @@ journal: GigaScience
 year: '2022'
 month: May
 projects:
-- example-project
+- isaric4c
+- odap
 featured: 'false'
 weight: 200
 doi: https://doi.org/10.1093/gigascience/giac045

@@ -31,6 +31,7 @@ scholar_search_ids = [
 scholarjson = "catalog/google-scholar.json"
 pbibjson = "catalog/pbib.json"
 alreadyjson = "catalog/already.json"
+ignorejson = "catalog/ignore.json"
 
 #-----------------------------
 import os
@@ -106,7 +107,7 @@ if os.path.exists(scholarjson):
     with open(scholarjson) as f:
         scholartitles = json.load(f)
 else:
-    scholartitles = {}
+    scholartitles = []
 
 if os.path.exists(pbibjson):
     with open(pbibjson) as f:
@@ -114,9 +115,15 @@ if os.path.exists(pbibjson):
 else:
     pbib = {}
 
+if os.path.exists(ignorejson):
+    with open(ignorejson) as f:
+        ignore_dois = json.load(f)
+else:
+    ignore_dois = []
+
 outputdir = os.path.abspath("../")
-ignorelist = ["__README.md"]
-files = [x for x in os.listdir(outputdir) if not x.startswith(".") and not x in ignorelist]
+ignorefiles = ["__README.md"]
+files = [x for x in os.listdir(outputdir) if not x.startswith(".") and not x in ignorefiles]
 for i,thisfile in enumerate(files):
     filepath = os.path.join(outputdir, thisfile)
     if os.path.isdir(filepath):
@@ -133,6 +140,11 @@ for i,thisfile in enumerate(files):
                 continue
             if doi in pbib:
                 del pbib[doi]
+for doi in ignore_dois:
+    try:
+        del pbib[doi.split("doi.org/")[1].lower()]
+    except:
+        pass
 
 outputfields = [
     "Title",
