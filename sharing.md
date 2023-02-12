@@ -17,4 +17,4 @@ The 4C consortium has:
 
 Dynamic data feeds from the [data analysis platform](/ap) are provided via API to Public Health in England & Scotland & SPI-M with independent reports prepared by them for NERVTAG and SAGE.
 
-{% include_relative samples/samples.citemd.html %}
+<!-- include_relative samples/samples.html -->

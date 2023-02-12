@@ -179,7 +179,6 @@ def searchtitle(thistitle):
         pubent = p2b(pmid)
         if len(pubent) > 0:
             if pubent[0] != 'null' and pubent[0] != None:
-                return pubent[0]
                 # compare titles. If they are almost identical, just go for it
                 s = difflib.SequenceMatcher(None, thistitle.lower(), pubent[0]['Title'].lower())
                 diffratio = s.ratio()
