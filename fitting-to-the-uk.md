@@ -5,7 +5,8 @@ journal: Statistical methods in medical research
 year: '2022'
 month: Sep
 projects:
-- example-project
+- isaric4c
+- odap
 featured: 'false'
 weight: 200
 doi: https://doi.org/10.1177/09622802211070257
