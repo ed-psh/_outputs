@@ -5,7 +5,6 @@ journal: BMJ open respiratory research
 year: '2021'
 month: Sep
 projects:
-- isaric4c
 - odap
 - phosp
 featured: 'false'

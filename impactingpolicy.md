@@ -7,14 +7,14 @@ projects:
 - odap
 ---
 
-ISARIC4C and CO-CIN (Tier 0) feed data dynamically to Public Health
+ISARIC4C Tier 0/CO-CIN fed data dynamically through the Outbreak Data Analysis Platform (ODAP) to Public Health
 Scotland, Public Health England, SPI-M, NERVTAG and SAGE. SPI-M have
 been highly productive and published several analysis that informed
 Policy.
 
-ISARIC4C and CO-CIN data are used to inform the NHS England Independent Advisory Group concerning the use of neutralising monoclonal antibodies and anti-viral drugs in high-risk clinical subgroups. 
+The data were used to inform the NHS England Independent Advisory Group concerning the use of neutralising monoclonal antibodies and anti-viral drugs in high-risk clinical subgroups. 
 
-Other key UK policy documents citing ISARIC4C / CO-CIN data
+Other key UK policy documents citing ISARIC4C/ODAP data
 
 1.  COVID-19: the green book, chapter 14a.
 

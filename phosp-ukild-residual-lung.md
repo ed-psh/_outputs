@@ -5,7 +5,6 @@ journal: American journal of respiratory and critical care medicine
 year: '2022'
 month: Dec
 projects:
-- isaric4c
 - odap
 - phosp
 featured: 'false'

@@ -1,0 +1,3 @@
+- Understanding the burden of interstitial lung disease post-COVID-19: the UK Interstitial Lung Disease-Long COVID Study (UKILD-Long COVID). [https://doi.org/10.1136/bmjresp-2021-001049]
+- Residual Lung Abnormalities Following COVID-19 Hospitalization: Interim Analysis of the UKILD Post-COVID Study. [https://doi.org/10.1164/rccm.202203-0564OC]
+- Physical, cognitive, and mental health impacts of COVID-19 after hospitalisation (PHOSP-COVID): a UK multicentre, prospective cohort study. [https://doi.org/10.1016/S2213-2600(21)00383-0]

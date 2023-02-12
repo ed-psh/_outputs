@@ -5,6 +5,7 @@ weight: 21
 doi: https://doi.org/10.1038/s41586-020-03065-y
 projects:
 - isaric4c
+- genomicc
 - odap
 journal: MedRxiv September 2020; Nature online
 month: December
