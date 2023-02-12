@@ -115,9 +115,9 @@ if args.newsearch:
 
     print ("{} added from pubmed search of scholar titles")
     with open("catalog/pbib.json","w") as o:
-        json.dump(pbib, o)
+        json.dump(pbib, o, indent=4)
     with open("catalog/already.json","w") as o:
-            json.dump(already, o)
+        json.dump(list(set(already)), o, indent=4)
 
 with open("catalog/google-scholar.json") as f:
     scholartitles = json.load(f)
