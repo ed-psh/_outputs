@@ -97,6 +97,7 @@ index,citations,year,title
 96,4,2021,A common TMPRSS2 variant protects against severe COVID-19
 97,4,2021,Sanchez Sevilla Uruchurtu A, Siggins MK, Liew F, Russell CD, Moore SC, et al.; ISARIC4C investigators
 98,4,2020,Females in hospital with SARS-CoV-2 infection, the association with pregnancy and pregnancy outcomes: a UKOSS/ISARIC/CO-CIN investigation
+99,4,,Negative regulation of ACE2 by interferons in vivo and its genetic control.
 100,3,2022,Clonal hematopoiesis is not significantly associated with COVID-19 disease severity
 101,3,2022,Detection and quantification of antibody to SARS CoV 2 receptor binding domain provides enhanced sensitivity, specificity and utility
 102,3,2022,OPTIC consortium; ISARIC4C consortium, NG Paterson, MA Williams, DR Hall, J. Mongkolsapaya, EE Fry, W. Dejnirattisai, J. Ren, DI Stuart, GR Screaton, Potent cross-reactive …
@@ -118,6 +119,12 @@ index,citations,year,title
 118,2,2020,the COVID-19 Genomics UK (COG-UK) consortium, The circulating SARS-CoV-2 spike variant N439K maintains fitness while evading antibody-mediated immunity
 119,2,2020,ISARIC COVID-19 Clinical Data Report: 13 July 2020
 120,2,2020,International Severe Acute Respiratory and Emerging Infections Consortium (ISARIC) COVID-19 Report: 06 May 2020
+121,2,,OPTIC consortium; ISARIC4C consortium; Fry, E
+122,2,,the collaborative study participants. Establishment of the WHO International Standard and Reference Panel for anti-SARS-CoV-2 antibody on behalf of the ISARIC4C Investigators
+123,2,,Clinical Characterisation Protocol (CCP): UK version, 2020
+124,2,,Clinical characterisation protocol (CCP): ISARIC, 2012
+125,2,,COVID-19 clinical research resources
+126,2,,Symptoms and quality of life following hospitalisation for COVID-19 (Post COVID-19 Syndrome/Long COVID) in the ISARIC WHO Clinical Characterisation Protocol UK: preliminary …
 127,1,2023,Fewer COVID‐19 Neurological Complications with Dexamethasone and Remdesivir
 128,1,2022,Respiratory support in patients with severe COVID-19 in the International Severe Acute Respiratory and Emerging Infection (ISARIC) COVID-19 study: a prospective, multinational …
 129,1,2022,Alternative pathway dysregulation in tissues drives sustained complement activation and predicts outcome across the disease course in COVID‐19
@@ -155,3 +162,5 @@ index,citations,year,title
 161,0,2020,Establishment of 1st WHO International Standard for anti-MERS-CoV antibody
 162,0,2020,Covid-19 Case Report Form Oxford
 163,0,2020,HIV associated with worse outcomes from COVID-19 in UK ISARIC and OpenSAFELY databases
+164,0,,Risk of adverse outcomes in patients with underlying respiratory conditions hospitalised with COVID-19 using the ISARIC WHO Clinical Characterisation Protocol: a national …
+165,0,,Establishment of the WHO International Standard and Reference Panel for anti-SARS-CoV-2 antibody on behalf of the ISARIC4C Investigators

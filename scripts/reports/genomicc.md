@@ -7,7 +7,7 @@
 
 This research article outlines key findings from the GenOMICC study, using whole-genome sequencing in **7,491 critically ill individuals compared with 48,400 controls to** **discover and replicate 23 independent variants** that significantly predispose patients to critical COVID-19. This included novel 16 variants which were yet to be identified. The multiple variants found in this study tended to be involved in the two mechanisms which have been proposed as the major drivers of severe disease: failure to control viral replication; or an enhanced tendency towards pulmonary inflammation and intravascular coagulation. This article determines the use of the GenOMMIC study in comparing cases of critical illness against population controls in the highly efficient detection of therapeutically relevant mechanisms of disease.
 
-Altmetric score: 1558[https://doi.org/10.1038/s41586-022-04576-6]
+Altmetric score: 1557[https://doi.org/10.1038/s41586-022-04576-6]
 
 
 # Two key takeaways from a year of pandemic research
@@ -27,7 +27,7 @@ An invited foreword in the journal of Critical Care Medicine by Dr David Maslove
 
 Data from the GenOMICC consortium was used to identify a **genetic variation on chromosome 12 which protects against severe disease** when infected with SARS-CoV-2. This inherited genetic factor has been shown to originate in Neandertals and has been shown to be found in humans all over the world. Previously, Neandertal DNA alterations have been shown to increase the risk of severe disease in COVID-19 but this protective variation can help in our understanding of the virus and disease.
 
-Altmetric score: 2350[https://doi.org/10.1073/pnas.2026309118]
+Altmetric score: 2351[https://doi.org/10.1073/pnas.2026309118]
 
 
 # Identification of a novel protective genetic variant against severe COVID-19

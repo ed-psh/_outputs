@@ -11,7 +11,7 @@ This has direct implications for the NHS, suggesting that we should test patient
 
 As with much of our work, this was discussed immediately at the UK government advisory group, SAGE, and has already influenced the thinking around policy.
 
-Altmetric score: 3834[https://doi.org/10.1016/S0140-6736(22)00383-X]
+Altmetric score: 3837[https://doi.org/10.1016/S0140-6736(22)00383-X]
 
 
 # Sharing samples and data
@@ -61,9 +61,7 @@ Other key UK policy documents citing ISARIC4C / CO-CIN data
 
 # Risk prediction: the 4C Mortality Score
 
-[BMJ 9 Mar 2020](https://doi.org/10.1136/bmj.m3339)
-
-Using data from 57, 824 hospital admissions, we developed and validated an easy-to-use risk stratification score based on commonly available parameters at hospital presentation. The 4C Mortality Score outperformed existing scores, showed utility to directly inform clinical decision making, and can be used to stratify patients admitted to hospital with covid-19 into different management groups. 
+Using data from 57, 824 hospital admissions, we developed and validated an easy-to-use risk stratification score based on commonly available parameters at hospital presentation. The 4C Mortality Score outperformed existing scores, showed utility to directly inform clinical decision making, and can be used to stratify patients admitted to hospital with covid-19 into different management groups. Generation of the 4C mortality score was supported by the [Outbreak Data Analysis Platform (ODAP)](odap.ac.uk).
 
 The 4C Mortality Score can be found here: [isaric4c.net/risk](/risk)
 
@@ -88,7 +86,7 @@ The 4C Mortality Score has been extensively validated in independent studies acr
 
 Using data from the second wave of the COVID-19 pandemic in the UK, a [prospective validation study](https://thorax.bmj.com/content/early/2021/11/21/thoraxjnl-2021-217629) showed that both the 4C Mortality Score and 4C Deterioration Score demonstrated consistent performance to predict clinical deterioration and mortality. Despite recent advances in the treatment and management of adults hospitalised with COVID-19, both scores can continue to inform clinical decision making.
 
-Altmetric score: 743[https://doi.org/10.1136/bmj.m3339]
+Altmetric score: 749[https://doi.org/10.1136/bmj.m3339]
 
 
 # Characterisation of hospitalised cases of COVID-19
@@ -112,7 +110,7 @@ Although we know the DNA associations are real, we can't always be sure exactly 
 
 The action of some genetic variants is similar the the action of drugs - either increasing or decreasing the amount of a particular molecule or signal. We can use this to predict new treatments. This evidence has influenced the inclusion of baricitinib in the RECOVERY trial.
 
-Altmetric score: 2827[https://doi.org/10.1038/s41586-020-03065-y]
+Altmetric score: 2825[https://doi.org/10.1038/s41586-020-03065-y]
 
 
 # Clinical characterisation of Covid-19 in children
@@ -121,7 +119,7 @@ Altmetric score: 2827[https://doi.org/10.1038/s41586-020-03065-y]
 
 We have comprehensively characterised the burden and patterns of disease in children in the UK, demonstrating that life-threatening disease in otherwise healthy children is extremely rare. This had direct impact on public health policy in the UK and abroad.
 
-Altmetric score: 2858[https://doi.org/10.1136/bmj.m3249]
+Altmetric score: 2854[https://doi.org/10.1136/bmj.m3249]
 
 
 # Characterisation of in-hospital complications associated with COVID-19
@@ -132,7 +130,7 @@ As well as death, severe COVID-19 disease has effects on many different organ sy
 
 This work was also the subject of a system-wide [NIHR update](https://evidence.nihr.ac.uk/alert/one-in-two-people-hospitalised-with-covid-19-develop-complications-may-need-support/).
 
-Altmetric score: 2667[https://doi.org/10.1016/S0140-6736(21)00799-6]
+Altmetric score: 2674[https://doi.org/10.1016/S0140-6736(21)00799-6]
 
 
 # Circulating histones play a central role in COVID-19-associated coagulopathy and mortality
@@ -174,7 +172,7 @@ Covid-19 symptoms. The symptoms reported include fatigue, followed by
 breathlessness. These findings were present in young, previously healthy
 working age adults, and were most common in younger females.
 
-Altmetric score: 852[https://doi.org/10.1101/2021.03.18.21253888]
+Altmetric score: 853[https://doi.org/10.1101/2021.03.18.21253888]
 
 
 # Treating COVID-19 patients with dexamethasone and remdesivir prevents neurological complications
@@ -230,7 +228,7 @@ Altmetric score: 4[https://doi.org/10.1016/j.jinf.2022.05.033]
 
 The Omicron variant of the SARS-CoV-2 virus spread rapidly, even in those who had been vaccinated against it. This study examined the different DNA sequence of this viral variant to determine mutations in the virus from patient blood samples from the ISARIC4C study and the effect these mutations have on the ability for the vaccination to prevent infection or illness. Understanding these alterations can help with future vaccine strategies and prevent more rapidly spreading SARS-CoV-2 variants in the future.
 
-Altmetric score: 1660[https://doi.org/10.1016/j.cell.2022.06.005]
+Altmetric score: 1658[https://doi.org/10.1016/j.cell.2022.06.005]
 
 
 # Evaluation of effectiveness of remdesivir in treating severe COVID-19
@@ -293,11 +291,11 @@ Altmetric score: 1363[https://doi.org/10.1126/sciimmunol.abg9873]
 
 [Nature Immunology (4th September 2020)](https://doi.org/10.1038/s41590-020-0782-6))
 
-![](/Users/jkb/Dropbox/6_websites/isaric4c.github.io/img/figures/store/nat_immun_t_cells.png)
+![](/Users/jkb/Dropbox/6_websites/img/figures/store/nat_immun_t_cells.png)
 
 This study by Yanchung Peng, Alex Mentzer, Tao Dong and colleagues reveals that the immune system responds to many different parts of the SARS-CoV-2 virus. This will influence vaccine design, which often focuses only on the most prominent parts of the virus. It also reveals key differences in the way immune cells fight the virus in patients who have mild disease, helping us to better understand how some people are able to fight it off without becoming very sick.
 
-Altmetric score: 777[https://doi.org/10.1038/s41590-020-0782-6]
+Altmetric score: 779[https://doi.org/10.1038/s41590-020-0782-6]
 
 
 # Setting Serology Standards
@@ -321,7 +319,7 @@ persons recovered from infection. Our findings have highlighted how this
 virus can mutate and the need for ongoing molecular surveillance to
 guide development and usage of vaccines and therapeutics.
 
-Altmetric score: 447[https://doi.org/10.1016/j.cell.2021.01.037]
+Altmetric score: 449[https://doi.org/10.1016/j.cell.2021.01.037]
 
 
 # Adeno-associated virus 2 infection in children with non-A-E hepatitis
@@ -330,7 +328,7 @@ Altmetric score: 447[https://doi.org/10.1016/j.cell.2021.01.037]
 
 An outbreak of acute hepatitis of unknown aetiology in children was first reported in Scotland in April 2022. We carried out a detailed investigation of nine cases and 58 control subjects. Using next-generation sequencing and real-time polymerase chain reaction, our team compared samples and were able to **confirm the presence of AAV2 in the plasma and liver of all nine cases**. There was no AAV2 in any of the subjects in the control groups, which were made up of: age-matched healthy controls; children with adenovirus but normal liver function; and children admitted to hospital with known causes of hepatitis. AAV2 is not known to normally cause disease and often accompanies infection with adenoviruse, but we have now shown presence of the AAV2 virus associated with unexplained hepatitis in children. Larger studies are urgently needed to investigate the unanswered questions about the role of AAV2 in paediatric hepatitis cases.
 
-Altmetric score: 2109[https://doi.org/10.1101/2022.07.19.22277425]
+Altmetric score: 2111[https://doi.org/10.1101/2022.07.19.22277425]
 
 
 # SARS-CoV-2 surface and air contamination in a healthcare setting
@@ -344,7 +342,7 @@ the potential risk from surface and air contamination in managing
 COVID-19, and the need for effective use of PPE, social distancing, and
 hand/surface hygiene.
 
-Altmetric score: 157[https://doi.org/10.1093/cid/ciaa905]
+Altmetric score: 156[https://doi.org/10.1093/cid/ciaa905]
 
 
 # Impact of ethnicity
@@ -366,7 +364,7 @@ characterise the immunological properties of COVID-19. This was
 essential to the development of the viral vectored coronavirus vaccine
 developed by the Oxford COVID Vaccine Trial Group.
 
-Altmetric score: 15125[https://doi.org/10.1016/S0140-6736(20)31604-4]
+Altmetric score: 15131[https://doi.org/10.1016/S0140-6736(20)31604-4]
 
 
 # ICECAP autopsy study
@@ -422,7 +420,7 @@ symptoms is common and patients with asthma were more likely, and those
 with chronic pulmonary disease less likely, to receive critical care
 than patients without an underlying respiratory condition**.**
 
-Altmetric score: 207[https://doi.org/10.1016/s2213-2600(21)00013-8]
+Altmetric score: 206[https://doi.org/10.1016/s2213-2600(21)00013-8]
 
 
 # Pulmonary Microthrombosis and Vasculitis in Life-Threatening Respiratory Virus Diseases
@@ -543,7 +541,7 @@ Altmetric score: 16[https://doi.org/10.2807/1560-7917.ES.2020.25.42.2000685]
 
 [MedRxiv August 16th 2020.](https://doi.org/10.1101/2020.08.14.20168088)
 
-![Different outcomes among patients presenting with different patterns of symptoms](/Users/jkb/Dropbox/6_websites/isaric4c.github.io/img/figures/store/symptom_clusters_outcome.png)
+![Different outcomes among patients presenting with different patterns of symptoms](/Users/jkb/Dropbox/6_websites/img/figures/store/symptom_clusters_outcome.png)
 
 Because of the large scale of the ISARIC-4C study, we were able to detect robust groupings of patients with different patterns of symptoms. We found four patterns that are strikingly differnet from the core symptom groups: gastro-intestinal disease, productive cough, confusion, and pauci-symptomatic presentations. Each of these has a different clinical course and a different chance of death.
 

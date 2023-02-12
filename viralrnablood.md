@@ -6,9 +6,12 @@ doi: https://doi.org/10.12688/wellcomeopenres.16002.1
 projects:
 - isaric4c
 - odap
+journal: Wellcome Open Research
+month: July
+year: '2020'
 ---
 
-[Wellcome Open Research 29 Jul 2020]({{page.doi}})
+
 
 Laboratory diagnosis of SARS-CoV-2 infection uses PCR to detect viral
 RNA (vRNA) in respiratory samples. While SARS-CoV-2 RNA has been

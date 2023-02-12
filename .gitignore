@@ -6,6 +6,6 @@ _outputs/Icon*
 *.DS*
 *.DS_Store
 .DS_Store
-
+*.pyc
 
 

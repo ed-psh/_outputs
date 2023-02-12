@@ -10,7 +10,9 @@ title: "Risk prediction: the 4C Mortality Score"
 featured: false
 weight: 20
 doi: https://doi.org/10.1016/j.hrtlng.2021.01.006 
-link-text: BMJ August 2020
+journal: BMJ 
+month: August
+year: 2020
 projects:
 - isaric4c
 - odap
