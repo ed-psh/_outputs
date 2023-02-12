@@ -6,7 +6,6 @@ title: 'Studying the Long-term Impact of COVID-19 in Kids (SLICK). Healthcare us
 journal: BMJ open
 year: '2022'
 month: Nov
-doi: 10.1136/bmjopen-2022-063271
 projects:
 - example-project
 featured: 'true'

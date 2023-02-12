@@ -5,7 +5,6 @@ title: 'Obesity, Ethnicity, and Risk of Critical Care, Mechanical Ventilation, a
 journal: Obesity (Silver Spring, Md.)
 year: '2021'
 month: Jul
-doi: 10.1002/oby.23178
 projects:
 - example-project
 featured: 'true'

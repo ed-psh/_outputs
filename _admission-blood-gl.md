@@ -4,7 +4,6 @@ title: Admission Blood Glucose Level and Its Association With Cardiovascular and
 journal: Diabetes care
 year: '2022'
 month: May
-doi: 10.2337/dc21-1709
 projects:
 - example-project
 featured: 'true'

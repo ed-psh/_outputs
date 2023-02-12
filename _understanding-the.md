@@ -4,7 +4,6 @@ title: 'Understanding the burden of interstitial lung disease post-COVID-19: the
 journal: BMJ open respiratory research
 year: '2021'
 month: Sep
-doi: 10.1136/bmjresp-2021-001049
 projects:
 - example-project
 featured: 'true'

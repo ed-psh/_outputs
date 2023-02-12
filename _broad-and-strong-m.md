@@ -3,7 +3,6 @@ title: 'Broad and strong memory CD4 '
 journal: 'bioRxiv : the preprint server for biology'
 year: '2020'
 month: Jun
-doi: 10.1101/2020.06.05.134551
 projects:
 - example-project
 featured: 'true'

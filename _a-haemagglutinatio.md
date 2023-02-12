@@ -3,7 +3,6 @@ title: A haemagglutination test for rapid detection of antibodies to SARS-CoV-2.
 journal: Nature communications
 year: '2021'
 month: Mar
-doi: 10.1038/s41467-021-22045-y
 projects:
 - example-project
 featured: 'true'

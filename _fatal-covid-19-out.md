@@ -4,7 +4,6 @@ title: Fatal COVID-19 outcomes are associated with an antibody response targetin
 journal: JCI insight
 year: '2022'
 month: Jul
-doi: 10.1172/jci.insight.156372
 projects:
 - example-project
 featured: 'true'

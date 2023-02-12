@@ -3,7 +3,6 @@ title: 'Pandemic, Epidemic, Endemic: B Cell Repertoire Analysis Reveals Unique A
   Responses to SARS-CoV-2, Ebola and Respiratory Syncytial Virus.'
 journal: Frontiers in immunology
 year: '2022'
-doi: 10.3389/fimmu.2022.807104
 projects:
 - example-project
 featured: 'true'

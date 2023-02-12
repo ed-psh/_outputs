@@ -4,7 +4,6 @@ title: 'Clinical features and prognostic factors in Covid-19: A prospective coho
 journal: EBioMedicine
 year: '2021'
 month: May
-doi: 10.1016/j.ebiom.2021.103378
 projects:
 - example-project
 featured: 'true'

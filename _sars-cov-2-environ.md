@@ -4,7 +4,6 @@ title: SARS-CoV-2 environmental contamination from hospitalised patients with CO
 journal: Thorax
 year: '2022'
 month: Mar
-doi: 10.1136/thoraxjnl-2021-218035
 projects:
 - example-project
 featured: 'true'

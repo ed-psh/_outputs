@@ -3,7 +3,6 @@ title: A catalog of associations between rare coding variants and COVID-19 outco
 journal: 'medRxiv : the preprint server for health sciences'
 year: '2021'
 month: Feb
-doi: 10.1101/2020.10.28.20221804
 projects:
 - example-project
 featured: 'true'

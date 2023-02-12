@@ -4,7 +4,6 @@ title: Impact of cardiometabolic multimorbidity and ethnicity on cardiovascular/
 journal: Heart (British Cardiac Society)
 year: '2022'
 month: Jul
-doi: 10.1136/heartjnl-2021-320047
 projects:
 - example-project
 featured: 'true'

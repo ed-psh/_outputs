@@ -4,7 +4,6 @@ title: 'Implementation of corticosteroids in treatment of COVID-19 in the ISARIC
 journal: The Lancet. Digital health
 year: '2022'
 month: Apr
-doi: 10.1016/S2589-7500(22)00018-8
 projects:
 - example-project
 featured: 'true'

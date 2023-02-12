@@ -3,7 +3,6 @@ title: A delicate balance between antibody evasion and ACE2 affinity for Omicron
 journal: Cell reports
 year: '2023'
 month: Jan
-doi: 10.1016/j.celrep.2022.111903
 projects:
 - example-project
 featured: 'true'

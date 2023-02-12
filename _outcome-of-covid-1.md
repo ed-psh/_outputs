@@ -4,7 +4,6 @@ title: 'Outcome of COVID-19 in hospitalised immunocompromised patients: An analy
 journal: PLoS medicine
 year: '2023'
 month: Jan
-doi: 10.1371/journal.pmed.1004086
 projects:
 - example-project
 featured: 'true'

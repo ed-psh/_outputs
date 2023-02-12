@@ -4,7 +4,6 @@ title: 'COVID-19 symptoms at hospital admission vary with age and sex: results f
 journal: Infection
 year: '2021'
 month: Oct
-doi: 10.1007/s15010-021-01599-5
 projects:
 - example-project
 featured: 'true'

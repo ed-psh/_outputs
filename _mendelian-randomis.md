@@ -4,7 +4,6 @@ title: Mendelian randomisation identifies alternative splicing of the FAS death 
 journal: 'medRxiv : the preprint server for health sciences'
 year: '2021'
 month: Apr
-doi: 10.1101/2021.04.01.21254789
 projects:
 - example-project
 featured: 'true'

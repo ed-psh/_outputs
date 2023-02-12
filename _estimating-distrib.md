@@ -4,7 +4,6 @@ title: Estimating distribution of length of stay in a multi-state model conditio
 journal: Lifetime data analysis
 year: '2023'
 month: Feb
-doi: 10.1007/s10985-022-09586-0
 projects:
 - example-project
 featured: 'true'

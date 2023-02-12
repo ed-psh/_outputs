@@ -5,7 +5,6 @@ title: 'Changes in in-hospital mortality in the first wave of COVID-19: a multic
 journal: The Lancet. Respiratory medicine
 year: '2021'
 month: Jul
-doi: 10.1016/S2213-2600(21)00175-2
 projects:
 - example-project
 featured: 'true'

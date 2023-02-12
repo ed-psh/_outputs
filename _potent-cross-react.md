@@ -3,7 +3,6 @@ title: Potent cross-reactive antibodies following Omicron breakthrough in vaccin
 journal: Cell
 year: '2022'
 month: Jun
-doi: 10.1016/j.cell.2022.05.014
 projects:
 - example-project
 featured: 'true'

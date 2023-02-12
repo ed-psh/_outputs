@@ -5,7 +5,6 @@ title: 'Clinical characteristics with inflammation profiling of long COVID and a
 journal: The Lancet. Respiratory medicine
 year: '2022'
 month: Aug
-doi: 10.1016/S2213-2600(22)00127-8
 projects:
 - example-project
 featured: 'true'

@@ -3,7 +3,6 @@ title: 'Towards nationally curated data archives for clinical radiology image an
   at scale: Learnings from national data collection in response to a pandemic.'
 journal: Digital health
 year: '2021'
-doi: 10.1177/20552076211048654
 projects:
 - example-project
 featured: 'true'

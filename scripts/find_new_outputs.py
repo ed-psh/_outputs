@@ -98,7 +98,7 @@ if args.newsearch:
     print (len(ids), "papers found in pubmed")
 
     try:
-        with open("already.json") as f:
+        with open("catalog/already.json") as f:
             already = json.load(f)
     except:
         already = []
@@ -127,8 +127,6 @@ with open("catalog/pbib.json") as f:
 
 #m = difflib.get_close_matches(a, affiliations, 6, args.similarity)[1:]
 
-print (pbib.keys())
-
 outputdir = os.path.abspath("../")
 ignorelist = ["__README.md"]
 files = [x for x in os.listdir(outputdir) if not x.startswith(".") and not x in ignorelist]
@@ -144,7 +142,7 @@ for i,thisfile in enumerate(files):
             try:
                 doi = y["doi"].split("doi.org/")[1].lower()
             except Exception as e:
-                print (e)
+                print ("DOI not formatted as expected for {} ({})".format(thisfile, e))
                 continue
             print (thisfile, doi)
             if doi in pbib:
@@ -158,7 +156,6 @@ outputfields = [
     "Month",
     "Year",
     "Journal",
-    "doi",
     ]
 
 for i,key in enumerate(pbib.keys()):
@@ -167,6 +164,10 @@ for i,key in enumerate(pbib.keys()):
     y["projects"] = ["example-project"]
     y["featured"] = "true"
     y["weight"] = 200
+    try:
+        y["doi"] = "https://doi.org/{}".format(pbib["doi"])
+    except:
+        pass
     r = ""
     if "Abstract" in pbib[key]:
         r = pbib[key]["Abstract"]

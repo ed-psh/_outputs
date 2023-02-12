@@ -4,7 +4,6 @@ title: 'Using trained dogs and organic semi-conducting sensors to identify asymp
 journal: Journal of travel medicine
 year: '2022'
 month: May
-doi: 10.1093/jtm/taac043
 projects:
 - example-project
 featured: 'true'

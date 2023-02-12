@@ -4,7 +4,6 @@ title: Safety, tolerability and viral kinetics during SARS-CoV-2 human challenge
 journal: Nature medicine
 year: '2022'
 month: May
-doi: 10.1038/s41591-022-01780-9
 projects:
 - example-project
 featured: 'true'
