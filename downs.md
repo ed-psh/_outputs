@@ -12,7 +12,7 @@ year: '2021'
 ---
 
 
-)
+
 Providing data and support to the Trisomy 21 Society, a study was
 conducted to determine if health conditions, immune dysfunction, and
 premature aging associated with trisomy 21 (Down syndrome, DS) may
