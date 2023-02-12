@@ -13,4 +13,4 @@ year: '2022'
 
 
 
-Data from paediatric patients in the ISARIC4C study were used to help inform SAGE for the vaccination policy in children and young people earlier in 2022. Even though there was a change in the viral variant, a relaxation of shielding, and a return to face-to-face schooling, no evidence of increased severity in paediatric COVID-19 hospital admissions was found between the second and first waves of the COVID-19 pandemic.
+The data from paediatric patients in the ISARIC4C study were used to help inform SAGE for the vaccination policy in children and young people earlier in 2022. Even though there was a change in the viral variant, a relaxation of shielding, and a return to face-to-face schooling, no evidence of increased severity in paediatric COVID-19 hospital admissions was found between the second and first waves of the COVID-19 pandemic.
