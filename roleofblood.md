@@ -6,9 +6,12 @@ doi: https://doi.org/10.1126/sciimmunol.abg9873
 projects:
 - isaric4c
 - odap
+journal: Science Immunology
+month: March
+year: '2021'
 ---
 
-[Science Immunology 10 Mar 2021]({{page.doi}})
+
 
 We have identified new biomarkers of inflammation that both reveal the
 severity of COVID-19 and set it apart from severe influenza. Many

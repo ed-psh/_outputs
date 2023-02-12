@@ -6,10 +6,13 @@ doi: https://doi.org/10.1016/j.eclinm.2021.100769
 projects:
 - isaric4c
 - odap
+journal: EClinical Medicine
+month: February
+year: '2021'
 ---
 
-[EClinical Medicine 22 Feb 2021]({{page.doi}}))
 
+)
 Providing data and support to the Trisomy 21 Society, a study was
 conducted to determine if health conditions, immune dysfunction, and
 premature aging associated with trisomy 21 (Down syndrome, DS) may

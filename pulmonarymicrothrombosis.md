@@ -7,9 +7,12 @@ doi: http://doi.org/10.1093/ofid/ofaa640
 projects:
 - isaric4c
 - odap
+journal: Open Forum Infectious Diseases
+month: December
+year: '2020'
 ---
 
-[Open Forum Infectious Diseases 28 Dec 2020]({{page.doi}})
+
 
 This study, with support and resources provided by ISARIC4C, found
 evidence of thrombosis present in adults with fatal influenza and SARS,

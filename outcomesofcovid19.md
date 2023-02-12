@@ -6,9 +6,12 @@ doi: https://doi.org/10.1093/cid/ciaa1605
 projects:
 - isaric4c
 - odap
+journal: Clinical Infectious Diseases
+month: October
+year: '2020'
 ---
 
-[Clinical Infectious Diseases 23 Oct 2020]({{page.doi}})
+
 
 Providing data and support to the British HIV Association, presentation
 characteristics and outcomes of adults with and without HIV who were

@@ -7,5 +7,5 @@ _outputs/Icon*
 *.DS_Store
 .DS_Store
 *.pyc
-
+__pycache__
 

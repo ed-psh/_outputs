@@ -6,9 +6,12 @@ doi: https://doi.org/10.1016/j.jviromet.2022.114475
 projects:
 - isaric4c
 - odap
+journal: Journal of Virological Methods,
+month: April
+year: '2022'
 ---
 
-[Journal of Virological Methods, April 2022]({{page.doi}})
+
 
 Accurate and sensitive detection of antibody to SARS-CoV-2 remains an essential component of the pandemic response. 
 Measuring antibody that predicts neutralising activity and the vaccine response is an absolute requirement for laboratory-based confirmatory and reference activity.

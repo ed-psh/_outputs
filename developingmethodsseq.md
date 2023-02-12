@@ -6,9 +6,12 @@ doi: http://doi.org/10.3390/v12101164
 projects:
 - isaric4c
 - odap
+journal: Viruses
+month: October
+year: '2020'
 ---
 
-[Viruses 14 Oct 2020]({{page.doi}})
+
 
 Sequencing the viral genome as the outbreak progresses is important,
 particularly the identification of new variants and to identify whether

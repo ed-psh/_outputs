@@ -5,10 +5,12 @@ projects:
 - genomicc
 weight: 50
 featured: false
+journal: Current Research in Translational Medicine
+month: May
+year: '2022'
 ---
 
-[Current Research in Translational Medicine May 2022]({{page.doi}})
+
 
 
 Researchers investigated the human protein transmembrane protease serine type 2 (TMPRSS2) in COVID-19 due to the knowledge that it is required to activate the virus' spike protein and facilitates entry for the virus into target cells. Using the GenOMICC consortium data from critically ill patients, a **common variant in this protein was shown to reduce the likelihood of developing severe COVID-19**. There are already approved drugs to target TMPRSS2, which are currently used for pancreatitis and esophagitis, which could be used in clinical trials for the treatment of COVID-19.
-

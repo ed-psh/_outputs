@@ -6,9 +6,12 @@ doi: https://doi.org/10.1093/cid/ciaa905
 projects:
 - isaric4c
 - odap
+journal: Clinical Infectious Diseases
+month: July
+year: '2020'
 ---
 
-[Clinical Infectious Diseases 8 Jul 2020]({{page.doi}})
+
 
 We have explored the mechanisms of viral transmission. Our findings of
 extensive viral RNA contamination of surfaces and air across a range of

@@ -7,9 +7,12 @@ doi: https://doi.org/10.1016/s1473-3099(20)30984-1
 projects:
 - isaric4c
 - odap
+journal: Lancet Infectious Diseases
+month: December
+year: '2020'
 ---
 
-[Lancet Infectious Diseases 23 Dec 2020]({{page.doi}})
+
 
 To look at the impact of tiered restrictions, the team fitted a
 mathematical model of transmission to data on hospital admissions.

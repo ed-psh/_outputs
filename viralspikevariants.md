@@ -6,9 +6,12 @@ doi: https://doi.org/10.1016/j.cell.2021.01.037
 projects:
 - isaric4c
 - odap
+journal: Cell
+month: March
+year: '2021'
 ---
 
-[Cell 4 Mar 2021]({{page.doi}})
+
 
 We showed that the N439K viral mutation has enhanced binding affinity to
 the ACE2 receptor and that this variant cause infections with similar

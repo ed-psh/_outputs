@@ -6,9 +6,12 @@ doi: https://doi.org/10.1164/rccm.202007-2794oc
 projects:
 - isaric4c
 - odap
+journal: American Journal of Respiratory and Critical Care
+month: December
+year: '2020'
 ---
 
-[American Journal of Respiratory and Critical Care 15 Dec 2020]({{page.doi}})
+
 
 We completed an international multicentre audit of patients with prior
 diagnosis of Interstitial Lung Diseases (ILD) admitted to hospital with

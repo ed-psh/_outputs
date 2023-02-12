@@ -1,10 +1,14 @@
 ---
-title: "Impact of dexamethasone and remdesivir on neurological complications during COVID-19"
+title: Impact of dexamethasone and remdesivir on neurological complications during
+  COVID-19
 featured: false
 weight: 30
 doi: x
+journal: BMJ
+month: March
+year: '2020'
 ---
 
-[BMJ 9 Mar 2020]({{page.doi}})
+
 
 Impact of dexamethasone and remdesivir on neurological complications during COVID-19

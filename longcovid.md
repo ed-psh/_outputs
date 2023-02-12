@@ -6,9 +6,12 @@ doi: https://doi.org/10.1101/2021.03.18.21253888
 projects:
 - isaric4c
 - odap
+journal: MedRxiv pre-prints
+month: March
+year: '2021'
 ---
 
-[MedRxiv pre-prints 25 March 2021]({{page.doi}})
+
 
 It is emerging that long-term symptoms are often present in people who
 have had acute Covid-19 disease. We found that over half of patients
