@@ -1,20 +1,23 @@
 # Instructions for recording outputs
 
+Add one file per output. 
 
 Include a YAML header like this (lighter weights float to the top!):
 
-`
+```
 ---
 title: "Risk prediction: the 4C Mortality Score"
-featured: true
+featured: false
 weight: 20
-doi: https://doi.org/10.1016/j.hrtlng.2021.01.006
+doi: https://doi.org/10.1016/j.hrtlng.2021.01.006 
+link-text: BMJ August 2020
+projects:
+- isaric4c
+- odap
 ---
-`
+```
 
-Where possible, start with a markdown-style link to the output, using the full DOI address
-
-[BMJ August 2020]({{page.doi}}))
+Of these, only `title`, and `projects` are **required**.
 
 Then include as much information as you can about the output, e.g.
 
@@ -32,3 +35,4 @@ The 4C Mortality Score has been extensively validated in independent studies acr
 * [Turkey](https://doi.org/10.1016/j.hrtlng.2021.01.006)
 * [Canada, Toronto](https://doi.org/10.1503/cmaj.202795)
 * [Canada, Ontario](https://doi.org/10.21203/rs.3.rs-268410/v1)
+
