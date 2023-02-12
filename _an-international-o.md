@@ -4,7 +4,6 @@ title: An international observational study to assess the impact of the Omicron 
 journal: eLife
 year: '2022'
 month: Oct
-doi: 10.7554/eLife.80556
 projects:
 - example-project
 featured: 'true'

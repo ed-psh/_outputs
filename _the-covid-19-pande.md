@@ -3,7 +3,6 @@ title: 'The COVID-19 pandemic and global environmental change: Emerging research
 journal: Environment international
 year: '2021'
 month: Jan
-doi: 10.1016/j.envint.2020.106272
 projects:
 - example-project
 featured: 'true'

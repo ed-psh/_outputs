@@ -5,7 +5,6 @@ journal: 'Nephrology, dialysis, transplantation : official publication of the Eu
   Dialysis and Transplant Association - European Renal Association'
 year: '2022'
 month: Jan
-doi: 10.1093/ndt/gfab303
 projects:
 - example-project
 featured: 'true'

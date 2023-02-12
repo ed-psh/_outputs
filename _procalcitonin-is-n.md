@@ -5,7 +5,6 @@ title: Procalcitonin Is Not a Reliable Biomarker of Bacterial Coinfection in Peo
 journal: Open forum infectious diseases
 year: '2022'
 month: May
-doi: 10.1093/ofid/ofac179
 projects:
 - example-project
 featured: 'true'

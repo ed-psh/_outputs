@@ -3,7 +3,6 @@ title: A prenylated dsRNA sensor protects against severe COVID-19.
 journal: Science (New York, N.Y.)
 year: '2021'
 month: Oct
-doi: 10.1126/science.abj3624
 projects:
 - example-project
 featured: 'true'

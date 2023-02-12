@@ -4,7 +4,6 @@ title: Importance of patient bed pathways and length of stay differences in pred
 journal: BMC health services research
 year: '2021'
 month: Jun
-doi: 10.1186/s12913-021-06509-x
 projects:
 - example-project
 featured: 'true'

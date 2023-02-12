@@ -4,7 +4,6 @@ title: Common, low-frequency, rare, and ultra-rare coding variants contribute to
 journal: Human genetics
 year: '2022'
 month: Jan
-doi: 10.1007/s00439-021-02397-7
 projects:
 - example-project
 featured: 'true'

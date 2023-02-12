@@ -4,7 +4,6 @@ title: 'Ten months of temporal variation in the clinical journey of hospitalised
 journal: eLife
 year: '2021'
 month: Nov
-doi: 10.7554/eLife.70970
 projects:
 - example-project
 featured: 'true'

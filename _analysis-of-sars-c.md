@@ -5,7 +5,6 @@ title: Analysis of SARS-CoV-2 in Nasopharyngeal Samples from Patients with COVID
 journal: mSphere
 year: '2022'
 month: Jun
-doi: 10.1128/msphere.00913-21
 projects:
 - example-project
 featured: 'true'

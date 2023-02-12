@@ -5,7 +5,6 @@ title: 'A Hybrid Architecture (CO-CONNECT) to Facilitate Rapid Discovery and Acc
 journal: Journal of medical Internet research
 year: '2022'
 month: Dec
-doi: 10.2196/40035
 projects:
 - example-project
 featured: 'true'

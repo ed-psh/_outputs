@@ -4,7 +4,6 @@ title: Two doses of SARS-CoV-2 vaccination induce robust immune responses to eme
 journal: Nature communications
 year: '2021'
 month: Aug
-doi: 10.1038/s41467-021-25167-5
 projects:
 - example-project
 featured: 'true'

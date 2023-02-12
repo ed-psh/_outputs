@@ -4,7 +4,6 @@ title: 'Device-assessed sleep and physical activity in individuals recovering fr
 journal: The international journal of behavioral nutrition and physical activity
 year: '2022'
 month: Jul
-doi: 10.1186/s12966-022-01333-w
 projects:
 - example-project
 featured: 'true'

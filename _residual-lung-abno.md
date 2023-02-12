@@ -4,7 +4,6 @@ title: 'Residual Lung Abnormalities Following COVID-19 Hospitalization: Interim 
 journal: American journal of respiratory and critical care medicine
 year: '2022'
 month: Dec
-doi: 10.1164/rccm.202203-0564OC
 projects:
 - example-project
 featured: 'true'

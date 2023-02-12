@@ -5,7 +5,6 @@ title: Viral Coinfections in Hospitalized Coronavirus Disease 2019 Patients Recr
 journal: Open forum infectious diseases
 year: '2022'
 month: Nov
-doi: 10.1093/ofid/ofac531
 projects:
 - example-project
 featured: 'true'

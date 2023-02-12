@@ -4,7 +4,6 @@ title: 'Obesity, chronic disease, age, and in-hospital mortality in patients wit
 journal: BMC infectious diseases
 year: '2021'
 month: Jul
-doi: 10.1186/s12879-021-06466-0
 projects:
 - example-project
 featured: 'true'

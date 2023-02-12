@@ -4,7 +4,6 @@ title: SARS-CoV-2-specific nasal IgA wanes 9 months after hospitalisation with C
 journal: EBioMedicine
 year: '2023'
 month: Jan
-doi: 10.1016/j.ebiom.2022.104402
 projects:
 - example-project
 featured: 'true'

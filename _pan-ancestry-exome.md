@@ -4,7 +4,6 @@ title: Pan-ancestry exome-wide association analyses of COVID-19 outcomes in 586,
 journal: American journal of human genetics
 year: '2021'
 month: Jul
-doi: 10.1016/j.ajhg.2021.05.017
 projects:
 - example-project
 featured: 'true'

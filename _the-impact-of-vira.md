@@ -3,7 +3,6 @@ title: "The impact of viral mutations on recognition by SARS-CoV-2 specific T\_c
 journal: iScience
 year: '2021'
 month: Nov
-doi: 10.1016/j.isci.2021.103353
 projects:
 - example-project
 featured: 'true'

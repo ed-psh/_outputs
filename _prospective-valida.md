@@ -4,7 +4,6 @@ title: Prospective validation of the 4C prognostic models for adults hospitalise
 journal: Thorax
 year: '2022'
 month: Jun
-doi: 10.1136/thoraxjnl-2021-217629
 projects:
 - example-project
 featured: 'true'

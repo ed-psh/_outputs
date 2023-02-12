@@ -5,7 +5,6 @@ title: 'Hospital admission for symptomatic COVID-19 and impact of vaccination: a
 journal: Anaesthesia
 year: '2022'
 month: May
-doi: 10.1111/anae.15677
 projects:
 - example-project
 featured: 'true'

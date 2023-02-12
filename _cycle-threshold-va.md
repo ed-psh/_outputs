@@ -6,7 +6,6 @@ journal: 'International journal of infectious diseases : IJID : official publica
   of the International Society for Infectious Diseases'
 year: '2021'
 month: Oct
-doi: 10.1016/j.ijid.2021.08.022
 projects:
 - example-project
 featured: 'true'

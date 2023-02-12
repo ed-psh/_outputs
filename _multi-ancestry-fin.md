@@ -3,7 +3,6 @@ title: Multi-ancestry fine mapping implicates OAS1 splicing in risk of severe CO
 journal: Nature genetics
 year: '2022'
 month: Feb
-doi: 10.1038/s41588-021-00996-8
 projects:
 - example-project
 featured: 'true'

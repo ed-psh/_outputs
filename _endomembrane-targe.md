@@ -3,7 +3,6 @@ title: Endomembrane targeting of human OAS1 p46 augments antiviral activity.
 journal: eLife
 year: '2021'
 month: Aug
-doi: 10.7554/eLife.71047
 projects:
 - example-project
 featured: 'true'
