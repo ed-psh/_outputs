@@ -1,14 +1,15 @@
 ---
-title: Analysis of SARS-CoV-2 in Nasopharyngeal Samples from Patients with COVID-19
-  Illustrates Population Variation and Diverse Phenotypes, Placing the Growth Properties
-  of Variants of Concern in Context with Other Lineages.
-journal: mSphere
+title: Analysis of SARS-CoV-2 known and novel subgenomic mRNAs in cell culture, animal
+  model, and clinical samples using LeTRS, a bioinformatic tool to identify unique
+  sequence identifiers.
+journal: GigaScience
 year: '2022'
-month: Jun
+month: May
 projects:
 - example-project
-featured: 'true'
+featured: 'false'
 weight: 200
+doi: https://doi.org/10.1093/gigascience/giac045
 ---
 
-New variants of SARS-CoV-2 are continuing to emerge and dominate the global sequence landscapes. Several variants have been labeled variants of concern (VOCs) because they may have a transmission advantage, increased risk of morbidity and/or mortality, or immune evasion upon a background of prior infection or vaccination. Placing the VOCs in context with the underlying variability of SARS-CoV-2 is essential in understanding virus evolution and selection pressures. Dominant genome sequences and the population genetics of SARS-CoV-2 in nasopharyngeal swabs from hospitalized patients were characterized. Nonsynonymous changes at a minor variant level were identified. These populations were generally preserved when isolates were amplified in cell culture. To place the Alpha, Beta, Delta, and Omicron VOCs in context, their growth was compared to clinical isolates of different lineages from earlier in the pandemic. The data indicated that the growth in cell culture of the Beta variant was more than that of the other variants in Vero E6 cells but not in hACE2-A549 cells. Looking at each time point, Beta grew more than the other VOCs in hACE2-A549 cells at 24 to 48 h postinfection. At 72 h postinfection there was no difference in the growth of any of the variants in either cell line. Overall, this work suggested that exploring the biology of SARS-CoV-2 is complicated by population dynamics and that these need to be considered with new variants. In the context of variation seen in other coronaviruses, the variants currently observed for SARS-CoV-2 are very similar in terms of their clinical spectrum of disease. 
+Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has a complex strategy for the transcription of viral subgenomic mRNAs (sgmRNAs), which are targets for nucleic acid diagnostics. Each of these sgmRNAs has a unique 5' sequence, the leader-transcriptional regulatory sequence gene junction (leader-TRS junction), that can be identified using sequencing. High-resolution sequencing has been used to investigate the biology of SARS-CoV-2 and the host response in cell culture and animal models and from clinical samples. LeTRS, a bioinformatics tool, was developed to identify leader-TRS junctions and can be used as a proxy to quantify sgmRNAs for understanding virus biology. LeTRS is readily adaptable for other coronaviruses such as Middle East respiratory syndrome coronavirus or a future newly discovered coronavirus. LeTRS was tested on published data sets and novel clinical samples from patients and longitudinal samples from animal models with coronavirus disease 2019. LeTRS identified known leader-TRS junctions and identified putative novel sgmRNAs that were common across different mammalian species. This may be indicative of an evolutionary mechanism where plasticity in transcription generates novel open reading frames, which can then subject to selection pressure. The data indicated multiphasic abundance of sgmRNAs in two different animal models. This recapitulates the relative sgmRNA abundance observed in cells at early points in infection but not at late points. This pattern is reflected in some human nasopharyngeal samples and therefore has implications for transmission models and nucleic acid-based diagnostics. LeTRS provides a quantitative measure of sgmRNA abundance from sequencing data. This can be used to assess the biology of SARS-CoV-2 (or other coronaviruses) in clinical and nonclinical samples, especially to evaluate different variants and medical countermeasures that may influence viral RNA synthesis.
