@@ -103,17 +103,14 @@ for filename in outputfiles:
 
 for project in projectdict:
     textfile = os.path.join("reports", "{}.md".format(slugify(project)))
-    sumfile = os.path.join("reports", "{}_summary.md".format(slugify(project)))
     listfile = os.path.join("reports", "{}_list.md".format(slugify(project)))
     altscoreslist = [projectdict[project][x]["score"] for x in projectdict[project] if "score" in projectdict[project][x]]
     weightdict = {x:projectdict[project][x]["weight"] for x in projectdict[project] if "weight" in projectdict[project][x]}
     summary = "**{} has produced {} papers with an average altmetric score of {:.0f}.**\n\n".format(
-                project,
+                project.upper(),
                 len(altscoreslist),
                 mean(altscoreslist)
             )
-    with open(sumfile,"w") as s:
-            s.write(summary)
     with open(textfile,"w") as o:
         with open(listfile,"w") as p:
             o.write(summary)

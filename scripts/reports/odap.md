@@ -1,4 +1,4 @@
-**odap has produced 99 papers with an average altmetric score of 611.**
+**ODAP has produced 99 papers with an average altmetric score of 611.**
 
 # Co-Infection with influenza virus is associated with worse outcomes in hospitalised Covid patients
 
@@ -652,7 +652,7 @@ The [Remdesivir Statistical Analysis Plan](/files/StatisticalAnalysisPlanv1.0.pd
 
 In data presented to SAGE early in 2020, but published here a year later, we were the first to show the impact of in-hospital acquisition of SARS-CoV2, leading to nationwide change in practice.
 
-Altmetric score: 1921 [https://doi.org/10.1016/S0140-6736(21)01786-4]
+Altmetric score: 1922 [https://doi.org/10.1016/S0140-6736(21)01786-4]
 
 
 # A prenylated dsRNA sensor protects against severe COVID-19.
@@ -785,7 +785,7 @@ Altmetric score: 24 [https://doi.org/10.1136/thoraxjnl-2021-217629]
 
 No effective pharmacological or non-pharmacological interventions exist for patients with long COVID. We aimed to describe recovery 1 year after hospital discharge for COVID-19, identify factors associated with patient-perceived recovery, and identify potential therapeutic targets by describing the underlying inflammatory profiles of the previously described recovery clusters at 5 months after hospital discharge.
 
-Altmetric score: 2796 [https://doi.org/10.1016/S2213-2600(22)00127-8]
+Altmetric score: 2795 [https://doi.org/10.1016/S2213-2600(22)00127-8]
 
 
 # Safety, tolerability and viral kinetics during SARS-CoV-2 human challenge in young adults.

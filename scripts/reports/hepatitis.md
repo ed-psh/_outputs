@@ -1,4 +1,4 @@
-**hepatitis has produced 1 papers with an average altmetric score of 2112.**
+**HEPATITIS has produced 1 papers with an average altmetric score of 2112.**
 
 # Adeno-associated virus 2 infection in children with non-A-E hepatitis
 

@@ -1,4 +1,4 @@
-**genomicc has produced 16 papers with an average altmetric score of 619.**
+**GENOMICC has produced 16 papers with an average altmetric score of 619.**
 
 # Whole-genome sequencing reveals host factors underlying critical COVID-19
 

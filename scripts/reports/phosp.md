@@ -1,4 +1,4 @@
-**phosp has produced 3 papers with an average altmetric score of 428.**
+**PHOSP has produced 3 papers with an average altmetric score of 428.**
 
 # Understanding the burden of interstitial lung disease post-COVID-19: the UK Interstitial Lung Disease-Long COVID Study (UKILD-Long COVID).
 
