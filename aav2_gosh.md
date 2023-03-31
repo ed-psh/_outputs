@@ -1,3 +1,4 @@
+---
 title: 'Genomic investigations of unexplained acute hepatitis in children'
 journal: 'Nature'
 year: '2023'
