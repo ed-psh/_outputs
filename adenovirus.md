@@ -20,7 +20,5 @@ The ISARIC4C team were the first in the world to identify the AAV2 connection wi
 
 Rapid recruitment with the help of NHS staff and data sharing with public health agencies were only possible as the ISARIC4C study infrastructure with data sharing through the Outbreak Data Analysis Platform (ODAP) was already set up. 
 
-Within months, ISARIC4C researchers showed that co-infection with 2 viruses and a genetic variant that made some children more susceptible to severe disease were the most likely cause of this unknown outbreak in children. 
-
-More urgent questions remain, including the mechanisms underlying disease - so work is continuing at pace with the aim to answer more of these questions to understand this disease in the coming months.
+More urgent questions remain, including the mechanisms underlying disease. Work is continuing at pace to answer more of these questions in the coming months.
 
