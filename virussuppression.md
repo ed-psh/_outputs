@@ -6,7 +6,7 @@ month: June
 projects:
 - isaric4c
 - odap
-featured: 
+featured: 'false'
 weight: 
 doi: https://doi.org/10.1126/sciimmunol.abl8881 
 ---
