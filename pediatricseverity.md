@@ -6,7 +6,7 @@ month: October
 projects:
 - isaric4c
 - odap
-featured: false
+featured: 'false'
 weight: 1
 doi: https://doi.org/10.1001/jamapediatrics.2023.3117 
 ---
