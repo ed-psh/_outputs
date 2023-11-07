@@ -6,7 +6,7 @@ month: May
 projects:
 - isaric4c
 - odap
-featured: false
+featured: 'false'
 weight: 1
 doi:  https://doi.org/10.1177/17511437211052226 
 ---
